@@ -75,7 +75,7 @@ ul a:hover{
     border-radius: 0.1em;
 }
 
-/******** content ********/
+/******** BANNER ********/
 
 #banner{
     width: 100%;
@@ -93,6 +93,45 @@ ul a:hover{
     font-size: 4em;
     padding-top: 450px;
     text-shadow: 5px 5px black;
-    
+}
 
+/******* FLOATED ELEMENTS********/
+
+/* HTML CSS SECTION */
+.htmlcss{
+    width: 100%;
+    float: left;
+    border-bottom: 5px solid red;
+    margin-right: 10%;
+    height: 300px;
+}
+
+/*HTML IMAGE*/
+#hcIcon{
+    float:left;
+    width: 20%;
+    height: 250px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-right: 50px;
+    background-image: url(../img/html.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: -5px 5px black;
+    border: 1px solid black;
+}
+/* HTML TEXT */
+.hcContent{
+    text-align: right;
+ 
+}
+
+
+
+
+/********* FOOTER ************/
+
+#footer{
+    
 }
