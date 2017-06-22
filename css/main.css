@@ -122,7 +122,8 @@ ul a:hover{
 }
 /* HTML TEXT */
 .hcContent{
-    margin-left: 30%;
+    margin-right:0;
+    margin-left: 40%;
     text-align: left;
     width: 50%;
     font-size: 1em;
